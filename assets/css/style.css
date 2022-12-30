@@ -4,7 +4,7 @@
 
 body {
     background-color: #080d1a;
-    background-image: url(/assets/img/aditya-chinchure-ZhQCZjr9fHo-unsplash.jpg);
+    background-image: url("assets/img/aditya-chinchure-ZhQCZjr9fHo-unsplash.jpg");
     background-position: cover;
     background-repeat: no-repeat;
     background-size: cover;
