@@ -1,0 +1,82 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-color: #080d1a;
+    background-image: url(/assets/img/aditya-chinchure-ZhQCZjr9fHo-unsplash.jpg);
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    border: #080d1a 3px solid;
+    background-color: lightgrey;
+    background: rgba(239, 239, 240, 0.8);
+    width: 300px;
+    margin-top: 20px;
+    padding: 15px 0px;
+    text-align: center;
+    border-radius: 40px;
+    box-shadow:0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb,-4px 8px 8px rgba(0,0,0,0.1), -8px 16px 16px rgba(0,0,0,0.1), -16px 32px 32px rgba(0,0,0,0.15), -32px 64px 64px rgba(0,0,0,0.25);
+}
+
+button {
+    margin: 2px;
+    border: #080d1a 3px solid;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+#add {
+    background-color: green;
+}
+
+#save {
+    background-color: rgb(117, 117, 153);
+}
+
+#neu {
+    background-color: rgb(196, 18, 18);
+}
+
+/* smaller screens */
+@media (max-width: 1608px) {
+    body {
+        background-size: auto;
+        background-position: center 60%;
+    }
+
+}
+
+/* smallest screens */
+@media (max-width: 278px) {
+    body {
+        background-position: center 67%;
+    }
+
+    .container {
+        width: 150px;
+        margin-top: 1px;
+        margin-bottom: 6px;
+        padding: 1px 0px;
+        border-radius: 10px;
+    }
+
+    h1, h2, p {
+        font-size: 1em;
+        margin: 0;
+        padding: 0;
+    }
+    button {
+        margin: 1px;
+        border: #080d1a 2px solid;
+        padding: 5px;
+    }
+
+}
+
+
